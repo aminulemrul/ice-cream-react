@@ -1,4 +1,5 @@
 import React from "react";
+import Builder from "../Builder/Builder";
 import cssClasses from "./IceCream.module.css";
 import Scoop from "./Scoop/Scoop";
 
@@ -11,6 +12,7 @@ const IceCream = () => {
         <Scoop />
         <div className={cssClasses.cherry}></div>
       </div>
+      <Builder />
     </div>
   );
 };

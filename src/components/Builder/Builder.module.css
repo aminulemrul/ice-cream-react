@@ -17,3 +17,11 @@
   padding: 10px 0;
   font-weight: bold;
 }
+.container {
+  border-bottom: 1px solid #5250507e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1024p;
+}
