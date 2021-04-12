@@ -1,5 +1,5 @@
 import React from "react";
-import IceCreamBuilder from "../IceCream/IceCream";
+import IceCreamBuilder from "./../IceCreamBuilder/IceCreamBuilder";
 import cssClasses from "./Body.module.css";
 
 const Body = () => {
